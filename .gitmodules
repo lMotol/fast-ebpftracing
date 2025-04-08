@@ -1,0 +1,6 @@
+[submodule "YCSB"]
+	path = YCSB
+	url = git@github.com:brianfrankcooper/YCSB.git
+[submodule "ipftrace2"]
+	path = ipftrace2
+	url = git@github.com:lMotol/ipftrace2.git
