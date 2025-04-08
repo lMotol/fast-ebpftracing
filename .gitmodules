@@ -4,3 +4,6 @@
 [submodule "ipftrace2"]
 	path = ipftrace2
 	url = git@github.com:lMotol/ipftrace2.git
+[submodule "ipftrace_parse"]
+	path = ipftrace_parse
+	url = git@github.com:lMotol/ipftrace_parse.git
