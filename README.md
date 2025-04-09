@@ -5,7 +5,7 @@ ebpf map の性能調査
 - workload
 - ipftrace2
     - eBPF を使用したトレースツール
-- ipftrace_parser
+- ipftrace_parse
     - ipftrace2 で出力された結果をパースする
     - jupyter notebook を日付ごとに作成して使用する
 - scripts
