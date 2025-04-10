@@ -2,7 +2,7 @@
 
 # パスなど
 WORKLOAD_PATH="${HOME}/fast-ebpftracing/workload/workload_template.sh"
-current_date=$(date "+%Y-%m-%d_%H:%M")
+current_date=$(date "+%Y-%m-%d_%H-%M")
 experiment_name="value-size"
 RESULT_PATH="${HOME}/fast-ebpftracing/result/${current_date}_${experiment_name}/"
 

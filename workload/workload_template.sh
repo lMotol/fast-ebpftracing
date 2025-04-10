@@ -3,7 +3,7 @@
 # 使用するファイルを変数にまとめる
 YCSB_PATH="${HOME}/fast-ebpftracing/YCSB"
 YCSB_WORKLOAD_PATH="${HOME}/fast-ebpftracing/ycsb_workload/workloada"
-current_date=$(date "+%Y-%m-%d_%H:%M:%S")
+current_date=$(date "+%Y-%m-%d_%H-%M")
 RESULT_PATH="${HOME}/fast-ebpftracing/result/${current_date}/"
 while getopts "r:" opt; do
     case "$opt" in
