@@ -1,17 +1,15 @@
 #!/bin/bash
 
-commit_hashs=("86234d255425723ccfb07133e7baa0747042cac0"
-    "889fa331914fde5d4380b25fd11da20755e51e0e"
-    "d6cbd17bba2a5ce4954cb2172ae0cc62d76bb744"
-    "dfea4d8c98e7be5236c9cc048297b1e0bb6f8f5a"
-    "931ff45275dd2338dbc2633423713e405e43d296"
-    "f751e71b74d64e0794af89fc654284ce1dc259fb")
+commit_hashs=("42e5607abde9088d6cec81efe45b30fc81eb2595"
+    "0d1d26795bcf2dc9683e7ffd683530a0713d5b17"
+    "8c2f285731a92eba982a56ca62a450c3afa01ef7"
+    "5aa68abd037229ffdfc8c5f2f58949caa0aea95a"
+    "7d73e2d66f444ed3274da7ce64339ce19d71c5f5")
 case_names=("len_2"
     "len_4"
     "len_8"
     "len_16"
-    "len_32"
-    "len_64")
+    "len_32")
 for i in "${!commit_hashs[@]}"; do
     COMMIT_HASH=${commit_hashs[$i]}
     # パスなど
