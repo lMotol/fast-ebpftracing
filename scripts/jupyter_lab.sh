@@ -12,4 +12,4 @@ echo "Starting Jupyter server on port ${PORT}..."
 
 # Poetry 環境内で Jupyter Lab を起動（Notebook を利用する場合は "jupyter notebook" に変更）
 cd ~/fast-ebpftracing/ipftrace_parse/
-poetry run jupyter lab --no-browser --ip=0.0.0.0 --port=${PORT}
+poetry run jupyter lab --notebook-dir="$HOME/fast-ebpftracing/" --no-browser --ip=0.0.0.0 --port=${PORT}
