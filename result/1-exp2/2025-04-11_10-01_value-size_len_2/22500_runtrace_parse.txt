@@ -1,0 +1,247 @@
+Attaching program (total 2189, succeeded 0, failed 0, filtered: 0)Attaching program (total 2189, succeeded 1467, failed 0, filtered: 0)Attaching program (total 2189, succeeded 1987, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2137, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2158, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2189, failed 0, filtered: 0)
+Trace ready!
+
+Timestamp            CPU                   Module                         Function
+===
+18446744072639532883 001                (unknown)                        (unknown)
+===
+0                    000                (unknown)                        (unknown)
+0                    3290265504                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+5730191558819039744  3117745072                (unknown)                        (unknown)
+5730191558819039744  3117745072                (unknown)                        (unknown)
+5730191558819039744  3117745072                (unknown)                        (unknown)
+18446645563267565608 3222882320                (unknown)                        (unknown)
+18446645563267992400 000                (unknown)                        (unknown)
+18446645563268141056 3223457792                (unknown)                        (unknown)
+18446645563268141056 3126649904                (unknown)                        (unknown)
+18446645563268501504 3113125382                (unknown)                        (unknown)
+18446645563334949088 891                (unknown)                        (unknown)
+18446744072528122702 3290265816                (unknown)                        (unknown)
+18446744072528122702 3290265816                (unknown)                        (unknown)
+18446744072541234224 3222882608                (unknown)                        (unknown)
+18446744072639533111 001                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+18446621753305125440 3290264792                (unknown)                        (unknown)
+18446744072526066715 3112178251                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+===
+4503599891536448     3223095600                (unknown)                        (unknown)
+18446621753305127424 616878336                  vmlinux               __build_skb_around
+18446645563267715072 3125632400                (unknown)                        (unknown)
+18446645563267992416 001                (unknown)                        (unknown)
+18446744072528122541 157631488                (unknown)                        (unknown)
+18446744072540216720 3223309336                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+4694929635204479744  3126389184                (unknown)                        (unknown)
+4694929635204479744  3117745072                (unknown)                        (unknown)
+18446621753198593024 008                (unknown)                        (unknown)
+18446621753198593024 008                (unknown)                        (unknown)
+18446645563267566048 3222882856                (unknown)                        (unknown)
+18446645563267566160 001                (unknown)                        (unknown)
+18446645563267715072 001                (unknown)                        (unknown)
+18446645563267715072 4294967291                (unknown)                        (unknown)
+18446744072528122702 3222883424                (unknown)                        (unknown)
+18446744072540228192 264165952                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+18446744073709551611 3113538382                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+18446645563334948368 001                (unknown)                        (unknown)
+===
+4503602859472320     3232101984                (unknown)                        (unknown)
+===
+18446744072574462144 3127039493                (unknown)                        (unknown)
+===
+18446744072540228192 264165952                (unknown)                        (unknown)
+18446744072639532883 001                (unknown)                        (unknown)
+18446744073709551607 3113538382                (unknown)                        (unknown)
+===
+18446621753198607360 3356817136                (unknown)                        (unknown)
+18446645563401500312 3223031808                (unknown)                        (unknown)
+18446645563401500344 3223031808                (unknown)                        (unknown)
+===
+18446621753199858048 3234363456                (unknown)                        (unknown)
+18446621753199858048 3234363456                (unknown)                        (unknown)
+18446621753199858048 3234363456                (unknown)                        (unknown)
+18446645563334948952 3290265760                (unknown)                        (unknown)
+===
+18446645563267992432 157645824                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+662                  024                (unknown)                        (unknown)
+662                  024                (unknown)                        (unknown)
+18446645563401533024 3112729429                (unknown)                        (unknown)
+18446744073709551611 3113538382                (unknown)                        (unknown)
+===
+18446621754799129640 004                (unknown)                        (unknown)
+18446621754799129640 004                (unknown)                        (unknown)
+===
+256                  3356849800                (unknown)                        (unknown)
+18446744073709551611 3113538382                (unknown)                        (unknown)
+===
+3538244711566161408  3117745072                (unknown)                        (unknown)
+18446621753197395968 3221879024                (unknown)                        (unknown)
+18446621753305127488 3221878896                (unknown)                        (unknown)
+18446645563325774080 3281090816                  vmlinux               __build_skb_around
+===
+4503599691091512     3356850008                (unknown)                        (unknown)
+===
+18446645563325774040 3281090848                (unknown)                        (unknown)
+18446744072639532883 001                (unknown)                        (unknown)
+===
+88087820691          3113538221                (unknown)                        (unknown)
+===
+3538244711566161408  3117745072                (unknown)                        (unknown)
+18446621753198593024 008                (unknown)                        (unknown)
+18446744072532329392 264163904                (unknown)                        (unknown)
+===
+18446744073709551611 3113538382                (unknown)                        (unknown)
+===
+18446621753305127488 3113125584                (unknown)                        (unknown)
+18446645563265923968 3221240776                (unknown)                        (unknown)
+18446645563265924240 3221240664                (unknown)                        (unknown)
+===
+4                    3223031808                (unknown)                        (unknown)
+===
+256                  3231855952                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+18446645563401500272 000                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+18446621753262932712 3231856104                (unknown)                        (unknown)
+===
+18446744072526139932 002                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+18446621753262932712 000                (unknown)                        (unknown)
+18446645563267566664 3222883088                (unknown)                        (unknown)
+===
+8                    4294967287                (unknown)                        (unknown)
+8                    4294967287                (unknown)                        (unknown)
+18446621759477294312 3223096264                (unknown)                        (unknown)
+===
+18446645563267566416 264163904                (unknown)                        (unknown)
+===
+1                    3221240504                (unknown)                        (unknown)
+18446645563265924472 3221240896                (unknown)                        (unknown)
+===
+18446645563265924040 3223457792                (unknown)                        (unknown)
+18446645563265924104 264165952                (unknown)                        (unknown)
+18446645563276539496 3231855920                (unknown)                        (unknown)
+===
+18446645563267779585 2141368040                (unknown)                        (unknown)
+===
+18446645563265923368 3221239792                (unknown)                        (unknown)
+===
+18446621753305125440 3221240552                (unknown)                        (unknown)
+===
+18446645563265923792 001                (unknown)                        (unknown)
+18446645563265923792 001                (unknown)                        (unknown)
+18446645563265924128 3221240552                (unknown)                        (unknown)
+18446744072528122541 157631488                (unknown)                        (unknown)
+===
+8                    4294967287                (unknown)                        (unknown)
+===
+4503602984187144     3356816400                (unknown)                        (unknown)
+18446621753305127488 3221240920                (unknown)                        (unknown)
+18446645563265924192 3223031808                (unknown)                        (unknown)
+18446645563401499840 3356816264                (unknown)                        (unknown)
+18446744072639532883 001                (unknown)                        (unknown)
+===
+4                    3223031808                (unknown)                        (unknown)
+4503602859406192     3232035760                (unknown)                        (unknown)
+18446744072527709904 3113217917                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+===
+18446645563276720224 264165888                (unknown)                        (unknown)
+18446645563276785176 3223031808                (unknown)                        (unknown)
+===
+4503602984219952     3356849560                (unknown)                        (unknown)
+18446645563265923816 264165952                (unknown)                        (unknown)
+18446645563268141056 3356849456                (unknown)                        (unknown)
+18446744072532329392 264163904                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+===
+8                    4294967291                (unknown)                        (unknown)
+256                  3113538221                (unknown)                        (unknown)
+18446645563267715072 001                (unknown)                        (unknown)
+===
+18446621753305127488 3113125584                (unknown)                        (unknown)
+===
+0                    000                (unknown)                        (unknown)
+0                    000                (unknown)                        (unknown)
+18446645563267779080 264163904                (unknown)                        (unknown)
+===
+4503602859226728     3231855984                (unknown)                        (unknown)
+===
+18446645563276785040 3232101920                (unknown)                        (unknown)
+===
+0                    3224948563                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+18446645563276538848 3113538221                (unknown)                        (unknown)
+18446744072528122702 3356816672                (unknown)                        (unknown)
+===
+18446645563265923760 264163904                (unknown)                        (unknown)
+===
+4503599627370504     3221240072                (unknown)                        (unknown)
+===
+8                    4294967287                (unknown)                        (unknown)
+===
+0                    3224951023                (unknown)                        (unknown)
+===
+18446645563268141056 3113125382                (unknown)                        (unknown)
+18446645563276539384 3231856120                (unknown)                        (unknown)
+18446645563276539464 3231855888                (unknown)                        (unknown)
+18446744072528122702 3231856152                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+1                    000                (unknown)                        (unknown)
+===
+18446645563268141056 3113125382                (unknown)                        (unknown)
+===
+18446645563265923288 3221240008                (unknown)                        (unknown)
+===
+0                    3224948791                (unknown)                        (unknown)
+18446744072527802237 3237831446                (unknown)                        (unknown)
+===
+4503602848611032     3221240552                (unknown)                        (unknown)
+===
+4503602740922870     3221240344                (unknown)                        (unknown)
+18446621753198593024 008                (unknown)                        (unknown)
+18446645563265923128 264165952                (unknown)                        (unknown)
+18446645563265923776 157645824                (unknown)                        (unknown)
+===
+18446645563265923880 264165952                (unknown)                        (unknown)
+18446744072528122541 157631488                (unknown)                        (unknown)
+===
+4503599627370497     3356848968                (unknown)                        (unknown)
+===
+18446621753230193600 3115668516                (unknown)                        (unknown)
+===
+18446645563401500640 3223457792                (unknown)                        (unknown)
+===
+18446744072639532883 001                (unknown)                        (unknown)
+===
+18446645563276785224 3232101648                (unknown)                        (unknown)
+===
+24                   381873920                (unknown)                        (unknown)
+===
+18446621753315870360 3126858799                (unknown)                        (unknown)
+===
+1                    000                (unknown)                        (unknown)
+===
+18446621753262932712 3125791654                (unknown)                        (unknown)

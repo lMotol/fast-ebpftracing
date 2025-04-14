@@ -1,0 +1,76 @@
+/usr/bin/java  -classpath /home/motomasa/fast-ebpftracing/YCSB/conf:/home/motomasa/fast-ebpftracing/YCSB/core/target/core-0.18.0-SNAPSHOT.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/conf:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/memcached-binding-0.18.0-SNAPSHOT.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/HdrHistogram-2.1.12.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/core-0.18.0-SNAPSHOT.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/htrace-core4-4.1.0-incubating.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/jackson-core-asl-1.9.4.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/jackson-mapper-asl-1.9.13.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/log4j-1.2.17.jar:/home/motomasa/fast-ebpftracing/YCSB/memcached/target/dependency/spymemcached-2.11.4.jar site.ycsb.Client -t -db site.ycsb.db.MemcachedClient -s -target 20000 -P /home/motomasa/fast-ebpftracing/ycsb_workload/workloada -p maxexecutiontime=120 -p measurementtype=raw -p measurement.raw.output_file=/home/motomasa/fast-ebpftracing/result/2025-04-11_14-04_value-size_len_64//20000_run_ipf_latency.txt -p memcached.hosts=127.0.0.1:11211 -threads 3
+Command line: -t -db site.ycsb.db.MemcachedClient -s -target 20000 -P /home/motomasa/fast-ebpftracing/ycsb_workload/workloada -p maxexecutiontime=120 -p measurementtype=raw -p measurement.raw.output_file=/home/motomasa/fast-ebpftracing/result/2025-04-11_14-04_value-size_len_64//20000_run_ipf_latency.txt -p memcached.hosts=127.0.0.1:11211 -threads 3
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+log4j:WARN No appenders could be found for logger (org.apache.htrace.core.Tracer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting test.
+2025-04-11 14:24:47:919 0 sec: 0 operations; est completion in 0 second 
+Maximum execution time specified as: 120 secs
+2025-04-11 14:24:48.095 INFO net.spy.memcached.MemcachedConnection:  Added {QA sa=/127.0.0.1:11211, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+2025-04-11 14:24:48.095 INFO net.spy.memcached.MemcachedConnection:  Added {QA sa=/127.0.0.1:11211, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+2025-04-11 14:24:48.096 INFO net.spy.memcached.MemcachedConnection:  Added {QA sa=/127.0.0.1:11211, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Raw data measurement: will output to result file: /home/motomasa/fast-ebpftracing/result/2025-04-11_14-04_value-size_len_64//20000_run_ipf_latency.txt
+2025-04-11 14:24:57:919 10 sec: 162131 operations; 16213.1 current ops/sec; est completion in 10 minutes READ count: 162132, average latency(us): 178.69 
+2025-04-11 14:25:07:919 20 sec: 318502 operations; 15637.1 current ops/sec; est completion in 10 minutes READ count: 156371, average latency(us): 190.46 
+2025-04-11 14:25:17:920 30 sec: 477774 operations; 15927.2 current ops/sec; est completion in 9 minutes READ count: 159283, average latency(us): 187.05 
+2025-04-11 14:25:27:919 40 sec: 626149 operations; 14837.5 current ops/sec; est completion in 9 minutes READ count: 148364, average latency(us): 200.89 
+2025-04-11 14:25:37:919 50 sec: 786496 operations; 16034.7 current ops/sec; est completion in 9 minutes READ count: 160347, average latency(us): 185.78 
+2025-04-11 14:25:47:919 60 sec: 946240 operations; 15974.4 current ops/sec; est completion in 9 minutes READ count: 159744, average latency(us): 186.49 
+2025-04-11 14:25:57:924 70 sec: 1102411 operations; 15609.3 current ops/sec; est completion in 9 minutes READ count: 156170, average latency(us): 190.07 
+2025-04-11 14:26:07:919 80 sec: 1262047 operations; 15971.59 current ops/sec; est completion in 9 minutes READ count: 159638, average latency(us): 186.80 
+2025-04-11 14:26:17:919 90 sec: 1424121 operations; 16207.4 current ops/sec; est completion in 9 minutes READ count: 162083, average latency(us): 183.83 
+2025-04-11 14:26:27:920 100 sec: 1570923 operations; 14680.2 current ops/sec; est completion in 8 minutes READ count: 146800, average latency(us): 203.16 
+2025-04-11 14:26:37:919 110 sec: 1715395 operations; 14447.2 current ops/sec; est completion in 8 minutes READ count: 144469, average latency(us): 206.40 
+2025-04-11 14:26:47:919 120 sec: 1867260 operations; 15186.5 current ops/sec; est completion in 8 minutes READ count: 151860, average latency(us): 196.30 
+Maximum time elapsed. Requesting stop for the workload.
+Stop requested for workload. Now Joining!
+Raw data measurement: will output to result file: /home/motomasa/fast-ebpftracing/result/2025-04-11_14-04_value-size_len_64//20000_run_ipf_latency.txt
+2025-04-11 14:26:47.928 INFO net.spy.memcached.MemcachedConnection:  Shut down memcached client
+2025-04-11 14:26:47:933 120 sec: 1867305 operations; 3214.29 current ops/sec; est completion in 8 minutes READ count: 44, average latency(us): 219.84 CLEANUP count: 3, average latency(us): 8181.00 
+2025-04-11 14:26:47.933 INFO net.spy.memcached.MemcachedConnection:  Shut down memcached client
+2025-04-11 14:26:47.934 INFO net.spy.memcached.MemcachedConnection:  Shut down memcached client
+[OVERALL], RunTime(ms), 120013
+[OVERALL], Throughput(ops/sec), 15559.189421146042
+[TOTAL_GCS_G1_Young_Generation], Count, 16
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 646
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.5382750202061444
+[TOTAL_GCS_G1_Concurrent_GC], Count, 0
+[TOTAL_GC_TIME_G1_Concurrent_GC], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Concurrent_GC], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 16
+[TOTAL_GC_TIME], Time(ms), 646
+[TOTAL_GC_TIME_%], Time(%), 0.5382750202061444
+[READ], Total Operations, 1867305
+[READ], Below is a summary of latency in microseconds:, -1
+[READ], Average, 191.01907829733224
+[READ], Min, 46
+[READ], Max, 83545
+[READ], p1, 85
+[READ], p5, 118
+[READ], p50, 181
+[READ], p90, 276
+[READ], p95, 309
+[READ], p99, 367
+[READ], p99.9, 687
+[READ], p99.99, 2977
+[READ], Return=OK, 1867305
+[CLEANUP], Total Operations, 3
+[CLEANUP], Below is a summary of latency in microseconds:, -1
+[CLEANUP], Average, 8181.0
+[CLEANUP], Min, 5852
+[CLEANUP], Max, 10777
+[CLEANUP], p1, 5852
+[CLEANUP], p5, 5852
+[CLEANUP], p50, 7914
+[CLEANUP], p90, 10777
+[CLEANUP], p95, 10777
+[CLEANUP], p99, 10777
+[CLEANUP], p99.9, 10777
+[CLEANUP], p99.99, 10777

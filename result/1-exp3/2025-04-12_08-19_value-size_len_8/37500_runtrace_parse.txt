@@ -1,0 +1,212 @@
+Attaching program (total 2189, succeeded 0, failed 0, filtered: 0)Attaching program (total 2189, succeeded 1467, failed 0, filtered: 0)Attaching program (total 2189, succeeded 1987, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2137, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2158, failed 0, filtered: 0)Attaching program (total 2189, succeeded 2189, failed 0, filtered: 0)
+Trace ready!
+
+Timestamp            CPU                   Module                         Function
+===
+18446744072531856304 3117271984                  vmlinux            security_sock_rcv_skb
+===
+18446744072540871920 3126287600                  vmlinux                   eth_type_trans
+===
+18446744072541285824 3126701504                  vmlinux          tcp_update_recv_tstamps
+===
+18446744072540261040 3125676720                  vmlinux                     skb_condense
+18446744072541157856 3126573536                  vmlinux                  __mkroute_input
+18446744072541434080 3126849760                  vmlinux                  tcp_add_backlog
+===
+18446744072541380176 3126795856                  vmlinux               __tcp_transmit_skb
+===
+18446744072540214880 3125630560                  vmlinux                       skb_unlink
+18446744072541137680 3126553360                  vmlinux                   nf_ip_checksum
+18446744072541138336 3126554016                  vmlinux                      nf_checksum
+18446744072541513200 3126928880                  vmlinux         __udp4_lib_mcast_deliver
+18446744072541520240 3126935920                  vmlinux                   __udp4_lib_rcv
+18446744072541522032 3126937712                  vmlinux               udp_v4_early_demux
+18446744072541523296 3126938976                  vmlinux                          udp_rcv
+18446744072541529184 3126944864                  vmlinux                  udp_gro_receive
+18446744072541529744 3126945424                  vmlinux                 udp4_gro_receive
+18446744072541581024 3126996704                  vmlinux                 inet_gro_receive
+18446744072541959744 3127375424                  vmlinux           unix_stream_read_actor
+18446744072541967872 3127383552                  vmlinux                       manage_oob
+18446744072541968528 3127384208                  vmlinux                  unix_scm_to_skb
+18446744072652662576 3238078256             nf_conntrack           __nf_conntrack_confirm
+18446744072652695248 3238110928             nf_conntrack          nf_conntrack_udp_packet
+18446744072653533296 3238948976            nft_chain_nat                 nft_nat_do_chain
+===
+18446744072541361376 3126777056                  vmlinux            tcp_rcv_state_process
+===
+18446744072540238384 3125654064                  vmlinux                      __skb_clone
+===
+18446744072541164832 3126580512                  vmlinux              ip_route_input_slow
+18446744072541167440 3126583120                  vmlinux             ip_route_input_noref
+18446744072541617504 3127033184                  vmlinux            __fib_validate_source
+18446744072541623712 3127039392                  vmlinux              fib_validate_source
+===
+18446744072527125536 3112541216                  vmlinux                audit_receive_msg
+18446744072527129776 3112545456                  vmlinux                    audit_receive
+18446744072531882528 3117298208                  vmlinux            security_netlink_send
+18446744072540979296 3126394976                  vmlinux                __netlink_sendskb
+18446744072540994512 3126410192                  vmlinux                netlink_attachskb
+18446744072540997184 3126412864                  vmlinux                      netlink_ack
+18446744072541537216 3126952896                  vmlinux                      arp_process
+18446744072541539776 3126955456                  vmlinux                          arp_rcv
+===
+18446744072541277024 3126692704                  vmlinux                   tcp_skb_entail
+18446744072541322784 3126738464                  vmlinux              tcp_event_data_recv
+===
+18446744072540154608 3125570288                  vmlinux            __sock_recv_timestamp
+===
+18446744072653438560 3238854240                   nf_nat             nf_nat_ipv4_local_fn
+===
+18446744072541318048 3126733728                  vmlinux                    tcp_queue_rcv
+18446744072541355952 3126771632                  vmlinux                tcp_rbtree_insert
+18446744072541363408 3126779088                  vmlinux        tcp_update_skb_after_send
+18446744072541365664 3126781344                  vmlinux          tcp_event_new_data_sent
+18446744072541469584 3126885264                  vmlinux                tcp_rate_skb_sent
+===
+18446744072541469776 3126885456                  vmlinux           tcp_rate_skb_delivered
+===
+18446744072540202112 3125617792                  vmlinux                       sock_rfree
+===
+18446744072541313408 3126729088                  vmlinux                   tcp_ack_tstamp
+===
+18446744072540973504 3126389184                  vmlinux          netlink_skb_set_owner_r
+18446744072540974320 3126390000                  vmlinux           netlink_skb_destructor
+18446744072540974896 3126390576                  vmlinux                     netlink_trim
+18446744072540995104 3126410784                  vmlinux                  netlink_unicast
+===
+18446744072541351072 3126766752                  vmlinux            tcp_validate_incoming
+===
+18446744072540281696 3125697376                  vmlinux      skb_copy_datagram_from_iter
+18446744072541976320 3127392000                  vmlinux                  maybe_add_creds
+18446744072541995904 3127411584                  vmlinux                unix_destruct_scm
+===
+18446744072540190880 3125606560                  vmlinux                  skb_set_owner_w
+18446744072540194192 3125609872                  vmlinux                       sock_wfree
+===
+18446744072531856416 3117272096                  vmlinux security_socket_getpeersec_dgram
+18446744072540214768 3125630448                  vmlinux                   skb_queue_tail
+===
+18446744072652501408 3237917088           nf_defrag_ipv4            ipv4_conntrack_defrag
+===
+18446744072652140304 3237555984                nf_tables                nft_do_chain_ipv4
+===
+18446744072540280496 3125696176                  vmlinux                skb_free_datagram
+===
+18446744072653815824 3239231504                  xt_mark                          mark_tg
+===
+18446744072541197584 3126613264                  vmlinux                ip_finish_output2
+18446744072541208224 3126623904                  vmlinux                     ip_local_out
+===
+18446744072541201808 3126617488                  vmlinux               __ip_finish_output
+===
+18446744072541207824 3126623504                  vmlinux                   __ip_local_out
+===
+18446744072540216832 3125632512                  vmlinux                         skb_pull
+18446744072652932032 3238347712                      llc                          llc_rcv
+18446744072652959952 3238375632                      stp                      stp_pdu_rcv
+18446744072653030752 3238446432                   bridge                       br_stp_rcv
+===
+18446744072541180400 3126596080                  vmlinux          ip_local_deliver_finish
+===
+18446744072540228192 3125643872                  vmlinux               __build_skb_around
+===
+18446744072541202208 3126617888                  vmlinux                 ip_finish_output
+===
+18446744072540233616 3125649296                  vmlinux                    skb_free_head
+===
+18446744072541440144 3126855824                  vmlinux                       tcp_v4_rcv
+18446744072541950464 3127366144                  vmlinux               validate_xmit_xfrm
+===
+18446744072540407296 3125822976                  vmlinux     __netif_receive_skb_one_core
+18446744072541413920 3126829600                  vmlinux                   tcp_v4_fill_cb
+===
+18446744072538210608 3123626288                  vmlinux                    loopback_xmit
+18446744072541181840 3126597520                  vmlinux                           ip_rcv
+===
+18446744072540254416 3125670096                  vmlinux                 kfree_skb_reason
+===
+18446744072540812928 3126228608                  vmlinux           skb_clone_tx_timestamp
+18446744072541489984 3126905664                  vmlinux                raw_local_deliver
+===
+18446744072540671952 3126087632                  vmlinux                  dev_gro_receive
+18446744072540673616 3126089296                  vmlinux                 napi_gro_receive
+18446744072540812688 3126228368                  vmlinux           skb_defer_rx_timestamp
+===
+18446744072540398064 3125813744                  vmlinux                 __dev_queue_xmit
+===
+18446744072540376336 3125792016                  vmlinux                       __netif_rx
+18446744072540394576 3125810256                  vmlinux          skb_csum_hwoffload_help
+18446744072540395952 3125811632                  vmlinux                validate_xmit_skb
+18446744072541178608 3126594288                  vmlinux                      ip_rcv_core
+===
+18446744072540253344 3125669024                  vmlinux                      consume_skb
+===
+18446744072540394688 3125810368                  vmlinux             skb_network_protocol
+===
+18446744072540346912 3125762592                  vmlinux               enqueue_to_backlog
+18446744072540395136 3125810816                  vmlinux               netif_skb_features
+18446744072540397264 3125812944                  vmlinux              dev_hard_start_xmit
+18446744072540407552 3125823232                  vmlinux              __netif_receive_skb
+===
+18446744072540375904 3125791584                  vmlinux                netif_rx_internal
+===
+18446744072652680736 3238096416             nf_conntrack             ipv4_conntrack_local
+===
+18446744072653437440 3238853120                   nf_nat             nf_nat_ipv4_local_in
+===
+18446744072652649344 3238065024             nf_conntrack       nf_conntrack_handle_packet
+===
+18446744072541202512 3126618192                  vmlinux                        ip_output
+===
+18446744072652690112 3238105792             nf_conntrack          nf_conntrack_tcp_packet
+===
+18446744072540196352 3125612032                  vmlinux                     __sock_wfree
+===
+18446744072540253120 3125668800                  vmlinux                      __kfree_skb
+===
+18446744072653436240 3238851920                   nf_nat                   nf_nat_ipv4_fn
+18446744072653438000 3238853680                   nf_nat          nf_nat_ipv4_pre_routing
+===
+18446744072652656192 3238071872             nf_conntrack                resolve_normal_ct
+18446744072652679984 3238095664             nf_conntrack                ipv4_conntrack_in
+===
+18446744072541356512 3126772192                  vmlinux              tcp_rcv_established
+===
+18446744072541420688 3126836368                  vmlinux                tcp_v4_send_check
+===
+18446744072541324864 3126740544                  vmlinux                          tcp_urg
+18446744072541354304 3126769984                  vmlinux                   tcp_data_queue
+===
+18446744072540397856 3125813536                  vmlinux              netdev_core_pick_tx
+===
+18446744072541208352 3126624032                  vmlinux                  __ip_queue_xmit
+18446744072541433392 3126849072                  vmlinux                    tcp_v4_do_rcv
+===
+18446744072541209616 3126625296                  vmlinux                    ip_queue_xmit
+===
+18446744072653429600 3238845280                   nf_nat                   nf_nat_inet_fn
+===
+18446744072541325408 3126741088                  vmlinux            tcp_try_rmem_schedule
+===
+18446744072532328448 3117744128                  vmlinux            apparmor_ip_postroute
+===
+18446744072541179856 3126595536                  vmlinux          ip_protocol_deliver_rcu
+18446744072541489360 3126905040                  vmlinux                     raw_v4_input
+===
+18446744072652661168 3238076848             nf_conntrack                  nf_conntrack_in
+===
+18446744072541180576 3126596256                  vmlinux                 ip_local_deliver
+===
+18446744072541368224 3126783904                  vmlinux          tcp_established_options
+===
+18446744072540216624 3125632304                  vmlinux                         skb_push
+===
+18446744072540276128 3125691808                  vmlinux                 napi_consume_skb
+===
+18446744072541409760 3126825440                  vmlinux                       tcp_filter
+===
+18446744072653438224 3238853904                   nf_nat                  nf_nat_ipv4_out
+===
+18446744072540216720 3125632400                  vmlinux                          skb_put
+===
+18446744072652682720
