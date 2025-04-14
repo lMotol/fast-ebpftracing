@@ -1,15 +1,25 @@
 #!/bin/bash
 
-commit_hashs=("42e5607abde9088d6cec81efe45b30fc81eb2595"
-    "0d1d26795bcf2dc9683e7ffd683530a0713d5b17"
-    "8c2f285731a92eba982a56ca62a450c3afa01ef7"
-    "5aa68abd037229ffdfc8c5f2f58949caa0aea95a"
-    "7d73e2d66f444ed3274da7ce64339ce19d71c5f5")
-case_names=("len_2"
-    "len_4"
-    "len_8"
-    "len_16"
-    "len_32")
+commit_hashs=("a14fabc095db4fbddd5dc0833fa35b99c439f367"
+    "9c6aee0c781ca8dea76d2d17b641d045b26bd5a7"
+    "f9977fa3781c75aff67f188e67a283bdd1ee271a"
+    "701453a047c0f97eca566408e36ae8ec57e0bddd"
+    "0520e3f9431204ff4aea8ab27b30a42d134f3212"
+    "94f9e1318b3a9b3d9a62abbdac7b30f4c4f9c401"
+    "72ea79339213446099288a85071cc965d7a143e8"
+    "c53f70493b6e0c33dd3d9e5add0862976fae664e"
+    "95ffc24966ded7d5bdd74ea2b8b3ddc2c39fe167"
+    "d9b62bb75fab0aaee9ff28ef469cfd6982a9058d")
+case_names=("len_16"
+    "len_32"
+    "len_64"
+    "len_128"
+    "len_256"
+    "len_512"
+    "len_1024"
+    "len_2048"
+    "len_4096"
+    "len_8192")
 for i in "${!commit_hashs[@]}"; do
     COMMIT_HASH=${commit_hashs[$i]}
     # パスなど
