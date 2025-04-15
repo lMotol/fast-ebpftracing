@@ -8,6 +8,7 @@ fi
 
 cd "$HOME/fast-ebpftracing/ipftrace2/"
 git checkout $1 || exit $?
+make clean
 ./scripts/make.sh || exit $?
 sudo cp src/ipft /usr/local/bin/ipft
 
