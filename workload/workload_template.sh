@@ -51,7 +51,7 @@ sudo iptables -t raw -A PREROUTING -s 127.0.0.1 -j MARK --set-mark 0xdeadbeef
 sudo service memcached restart
 
 #
-sudo taskset -c 0,1,2 \
+sudo taskset -c 1,2,3 \
     "${YCSB_PATH}/bin/ycsb.sh" load memcached -s \
     -target 100000 \
     -P "$YCSB_WORKLOAD_PATH" \
@@ -70,7 +70,7 @@ for NUM in "${TARGET_NUM[@]}"; do
         sudo rm "${RESULT_PATH}/${NUM}_run_ipf_latency.txt"
         echo "${RESULT_PATH}/${NUM}_run_ipf_latency.txt を削除しました"
     fi
-    sudo taskset -c 0,1,2 \
+    sudo taskset -c 1,2,3 \
         "${YCSB_PATH}/bin/ycsb.sh" run memcached -s \
         -target ${NUM} \
         -P "$YCSB_WORKLOAD_PATH" \
