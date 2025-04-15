@@ -26,7 +26,7 @@ sed -i "s/"operationcount=[0-9]*"/"operationcount=10000000"/" "${YCSB_WORKLOAD_P
 
 # request rate の変更
 TARGET_NUM+=(60000)
-for ((i = 5000; i <= 50001; i += 5000)); do
+for ((i = 50000; i <= 50001; i += 5000)); do
     TARGET_NUM+=($i)
 done
 echo "${TARGET_NUM[@]}"

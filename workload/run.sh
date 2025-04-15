@@ -1,25 +1,20 @@
 #!/bin/bash
 
-commit_hashs=("a14fabc095db4fbddd5dc0833fa35b99c439f367"
-    "9c6aee0c781ca8dea76d2d17b641d045b26bd5a7"
-    "f9977fa3781c75aff67f188e67a283bdd1ee271a"
-    "701453a047c0f97eca566408e36ae8ec57e0bddd"
-    "0520e3f9431204ff4aea8ab27b30a42d134f3212"
-    "94f9e1318b3a9b3d9a62abbdac7b30f4c4f9c401"
-    "72ea79339213446099288a85071cc965d7a143e8"
-    "c53f70493b6e0c33dd3d9e5add0862976fae664e"
-    "95ffc24966ded7d5bdd74ea2b8b3ddc2c39fe167"
-    "d9b62bb75fab0aaee9ff28ef469cfd6982a9058d")
-case_names=("len_16"
-    "len_32"
+commit_hashs=("dc88f500a2514d34aeec5c244f018c7e995aca07"
+    "1a3759f6abebe0bef9ffa25bf9932eaba0c3aa6c"
+    "01dc78e3fd4f39b1ee38352783faa56cc75a0675"
+    "f0c73e9d7d7208b3ec2c6927563eaba4ac108b86"
+    "b686b93a8dd0dea2335dd19adab205cb8254ce1b"
+    "705be60c4bece41e36ecf8a9882742ce63f141e8"
+    "bda937ac80d72b22039e5a967efc38a3b5fd53a6"
+)
+case_names=("len_4"
+    "len_16"
     "len_64"
-    "len_128"
     "len_256"
-    "len_512"
     "len_1024"
-    "len_2048"
     "len_4096"
-    "len_8192")
+    "len_16384")
 
 for i in "${!commit_hashs[@]}"; do
     COMMIT_HASH=${commit_hashs[$i]}
